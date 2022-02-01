@@ -1,0 +1,79 @@
+.aboutus {
+  padding: 7rem 4.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.aboutus__header {
+  p {
+    font-size: 5rem;
+    font-weight: 600;
+    background: linear-gradient(268deg, #e7e7e6, #0ebff2);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    letter-spacing: 0.125rem;
+    line-height: 1.5;
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 0px 30px;
+    text-align: center;
+  }
+}
+
+.aboutus__info {
+  margin-top: 5rem;
+  p {
+    width: 50ch;
+    text-align: center;
+    &:nth-child(1) {
+      font-size: 2rem;
+      color: #bbbbbb;
+    }
+    &:nth-child(3) {
+      font-size: 2rem;
+      color: #bbbbbb;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .aboutus__header {
+    p {
+      font-size: 4.7rem;
+    }
+  }
+
+  .aboutus__info {
+    p {
+      width: 40ch;
+      &:nth-child(1) {
+        font-size: 2rem;
+      }
+      &:nth-child(3) {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .aboutus__header {
+    p {
+      font-size: 3.5rem;
+    }
+  }
+
+  .aboutus__info {
+    p {
+      width: 30ch;
+      &:nth-child(1) {
+        font-size: 2rem;
+      }
+      &:nth-child(3) {
+        font-size: 2rem;
+      }
+    }
+  }
+}
