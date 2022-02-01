@@ -236,7 +236,7 @@ header .header__navbar ul li a.activatedNav {
 
 @media screen and (max-width: 626px) {
   .nav__links {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -577,7 +577,7 @@ header .header__navbar ul li a.activatedNav {
     font-size: 2.7rem;
   }
   .si-card p:nth-child(3) {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 }
 
@@ -589,7 +589,7 @@ header .header__navbar ul li a.activatedNav {
     font-size: 2.7rem;
   }
   .si-card p:nth-child(3) {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=index.css.map */
