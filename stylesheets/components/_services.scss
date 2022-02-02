@@ -38,6 +38,12 @@
   align-items: center;
   max-width: 350px;
   margin-bottom: 10rem;
+  &:nth-child(4) {
+    margin-bottom: 0;
+  }
+  &:nth-child(5) {
+    margin-bottom: 0;
+  }
   img {
     height: 6rem;
     width: 6rem;
