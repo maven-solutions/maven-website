@@ -44,3 +44,10 @@ const navSlide = () => {
 }
 
 navSlide();
+
+$(document).ready(function () {
+    $(".pc__counter").counterUp({
+        delay: 10,
+        time: 1200,
+    });
+});

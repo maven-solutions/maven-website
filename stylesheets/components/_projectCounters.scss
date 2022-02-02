@@ -1,8 +1,9 @@
-.services {
-  padding: 7rem 4.5rem;
+.project__counters {
+  padding: 6rem 4.5rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   max-width: 1500px;
   margin-right: auto;
   margin-left: auto;
@@ -11,86 +12,38 @@
   background-size: cover;
 }
 
-.services__header {
-  p {
-    font-size: 5rem;
-    font-weight: 600;
-    background: linear-gradient(268deg, #e7e7e6, #0ebff2);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    letter-spacing: 0.125rem;
-    line-height: 1.5;
-    text-shadow: rgba(255, 255, 255, 0.5) 0px 0px 30px;
-  }
-}
-
-.services__info {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 10rem;
-}
-
-.si-card {
+.pc__container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 350px;
-  margin-bottom: 10rem;
-  img {
+  width: 250px;
+  justify-content: center;
+  border: solid 5px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(268deg, #e7e7e6, #0ebff2 45%);
+  background-origin: border-box;
+  background-clip: border-box;
+  box-shadow: 2px 1000px 1px #14151a inset;
+  .pc__image {
     height: 6rem;
     width: 6rem;
     object-fit: cover;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
   }
-  p {
-    &:nth-child(2) {
-      font-size: 3rem;
-      color: #e7e7e6;
-      margin-top: 3rem;
-      margin-bottom: 3rem;
-      text-align: center;
-    }
-    &:nth-child(3) {
-      font-size: 2rem;
-      color: #bbbbbb;
-      text-align: center;
-    }
-  }
-}
 
-@media screen and (max-width: 900px) {
-  .services__header {
-    p {
-      font-size: 4.7rem;
-    }
+  .pc__counter {
+    font-size: 4rem;
+    color: #e7e7e6;
+    margin-bottom: 2rem;
   }
-  .si-card {
-    p {
-      &:nth-child(2) {
-        font-size: 2.7rem;
-      }
-      &:nth-child(3) {
-        font-size: 2rem;
-      }
-    }
-  }
-}
 
-@media screen and (max-width: 550px) {
-  .services__header {
-    p {
-      font-size: 3.5rem;
-    }
-  }
-  .si-card {
-    p {
-      &:nth-child(2) {
-        font-size: 2.7rem;
-      }
-      &:nth-child(3) {
-        font-size: 2rem;
-      }
-    }
+  .pc__text {
+    font-size: 2rem;
+    color: #e7e7e6;
+    margin-bottom: 6rem;
   }
 }
