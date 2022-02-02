@@ -706,7 +706,7 @@ header .header__navbar ul li a.activatedNav {
 
 .cf__container {
   background-color: #14151a;
-  width: 550px;
+  width: 475px;
   padding: 1.5rem;
   border: solid 5px transparent;
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(268deg, #e7e7e6, #0ebff2 45%);
@@ -714,7 +714,7 @@ header .header__navbar ul li a.activatedNav {
   background-clip: border-box;
   -webkit-box-shadow: 2px 1000px 1px #f0fffd inset;
           box-shadow: 2px 1000px 1px #f0fffd inset;
-  min-height: 690px;
+  min-height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -747,7 +747,7 @@ header .header__navbar ul li a.activatedNav {
   border: 5px solid #184088;
   -o-object-fit: contain;
      object-fit: contain;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
@@ -767,19 +767,18 @@ header .header__navbar ul li a.activatedNav {
 }
 
 .cf__container__info p:nth-child(1) {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   color: #184088;
   margin-top: 2rem;
-  margin-bottom: 4rem;
   text-align: center;
   font-weight: bold;
 }
 
 .cf__container__info p:nth-child(2) {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #707070;
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
