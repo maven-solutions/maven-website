@@ -64,23 +64,27 @@ $(document).ready(function () {
         stagePadding: 0,
         responsive: {
             0: {
-                items: 1.08,
+                items: 1,
                 dots: true
             },
             375: {
-                items: 1.08,
+                items: 1,
                 dots: true
             },
             425: {
-                items: 1.38,
+                items: 1,
                 dots: true
             },
             768: {
-                items: 2.38,
+                items: 1.15,
+                dots: true
+            },
+            940: {
+                items: 1.5,
                 dots: true
             },
             1200: {
-                items: 3.05,
+                items: 2.05,
                 dots: true
             },
         }
