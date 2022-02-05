@@ -72,19 +72,19 @@ $(document).ready(function () {
                 dots: true
             },
             425: {
-                items: 1,
+                items: 2,
                 dots: true
             },
             768: {
-                items: 1.15,
+                items: 2.15,
                 dots: true
             },
             940: {
-                items: 1.5,
+                items: 2.5,
                 dots: true
             },
             1200: {
-                items: 2.05,
+                items: 3,
                 dots: true
             },
         }
