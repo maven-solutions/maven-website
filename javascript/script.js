@@ -72,15 +72,15 @@ $(document).ready(function () {
                 dots: true
             },
             425: {
-                items: 2,
+                items: 1.05,
                 dots: true
             },
             768: {
-                items: 2.15,
+                items: 2.05,
                 dots: true
             },
             940: {
-                items: 2.5,
+                items: 2.25,
                 dots: true
             },
             1200: {
