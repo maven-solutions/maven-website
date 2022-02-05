@@ -68,15 +68,15 @@ $(document).ready(function () {
                 dots: true
             },
             375: {
-                items: 1,
-                dots: true
-            },
-            425: {
                 items: 1.05,
                 dots: true
             },
-            768: {
-                items: 2.05,
+            555: {
+                items: 1.25,
+                dots: true
+            },
+            850: {
+                items: 2,
                 dots: true
             },
             940: {
