@@ -60,6 +60,14 @@
   }
 }
 
+@media screen and (max-width: 460px) {
+  .cn__container {
+    img {
+      margin-right: 0;
+    }
+  }
+}
+
 @media screen and (max-width: 550px) {
   .cn__header {
     font-size: 3.5rem;

@@ -934,6 +934,12 @@ header .header__navbar ul li a:hover {
   }
 }
 
+@media screen and (max-width: 460px) {
+  .cn__container img {
+    margin-right: 0;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .cn__header {
     font-size: 3.5rem;
@@ -1160,6 +1166,9 @@ header .header__navbar ul li a:hover {
 }
 
 @media screen and (max-width: 1050px) {
+  .cu__container__left {
+    margin-right: 0;
+  }
   .contactUs__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1196,7 +1205,7 @@ header .header__navbar ul li a:hover {
     font-size: 3.5rem;
   }
   .cu__container__right {
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 4rem;
