@@ -79,7 +79,7 @@ header .header__navbar .logo__container {
 header .header__navbar .logo__container .logo {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 4rem;
+  height: 3rem;
   border-radius: 5px;
 }
 
