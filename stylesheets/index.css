@@ -1116,6 +1116,10 @@ header .header__navbar ul li a:hover {
   color: #e7e7e6;
 }
 
+.cu__mail {
+  margin-top: 6rem;
+}
+
 .cu__mail p {
   font-size: 2rem;
   color: #e7e7e6;
