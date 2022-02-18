@@ -48,7 +48,7 @@ navSlide();
 $(document).ready(function () {
     $(".pc__counter").counterUp({
         delay: 10,
-        time: 1200,
+        time: 1000,
     });
 });
 
@@ -68,4 +68,3 @@ $('.slider').slick({
             }
         }]
 });
-

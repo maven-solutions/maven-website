@@ -47,7 +47,7 @@ header.sticky {
 
 header {
   width: 100%;
-  padding: 0.75rem 4.5rem;
+  padding: 0.5rem 4.5rem;
   position: absolute;
 }
 
@@ -79,8 +79,8 @@ header .header__navbar .logo__container {
 header .header__navbar .logo__container .logo {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 3rem;
-  border-radius: 5px;
+  height: 5rem;
+  width: 5rem;
 }
 
 header .header__navbar ul {
