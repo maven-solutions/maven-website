@@ -81,6 +81,7 @@ header .header__navbar .logo__container .logo {
      object-fit: cover;
   height: 5rem;
   width: 5rem;
+  margin-top: 0.5rem;
 }
 
 header .header__navbar ul {
