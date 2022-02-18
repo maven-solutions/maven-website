@@ -52,42 +52,20 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function () {
-    $(".owl-carousel").owlCarousel({
-        margin: 15,
-        autoplay: true,
-        autoplayhoverpause: true,
-        autoplaytimeout: 100,
-        items: 3,
-        nav: true,
-        loop: true,
-        stagePadding: 0,
-        responsive: {
-            0: {
-                items: 1,
+$('.slider').slick({
+    adaptiveHeight: false,
+    infinite: true,
+    speed: 300,
+    dots: true,
+    slidesToScroll: 1,
+    autoplay: true,
+    responsive: [
+        {
+            breakpoint: 410,
+            settings: {
+                arrows: false,
                 dots: true
-            },
-            375: {
-                items: 1.05,
-                dots: true
-            },
-            555: {
-                items: 1.25,
-                dots: true
-            },
-            850: {
-                items: 2,
-                dots: true
-            },
-            940: {
-                items: 2.25,
-                dots: true
-            },
-            1200: {
-                items: 3,
-                dots: true
-            },
-        }
-    });
-})
+            }
+        }]
+});
 
