@@ -46,7 +46,7 @@ const navSlide = () => {
 navSlide();
 
 $(document).ready(function () {
-    $(".pc__counter").counterUp({
+    $(".pc__counter").countUp({
         delay: 10,
         time: 1000,
     });
