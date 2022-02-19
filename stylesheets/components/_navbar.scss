@@ -31,7 +31,7 @@ header {
         // border-radius: 5px;
       }
     }
-    ul {
+    .nav__links {
       display: flex;
       align-items: center;
       li {
@@ -124,8 +124,9 @@ header {
     background-color: $primary-color;
     transform: translateX(100%);
     transition: transform 500ms ease-in;
-    padding: 2em 7em 10em 7em;
+    padding: 2em 5em 10em 5em;
     z-index: 5;
+    transition: none;
     li {
       opacity: 0;
       margin-right: 0 !important;

@@ -84,7 +84,7 @@ header .header__navbar .logo__container .logo {
   margin-top: 0.5rem;
 }
 
-header .header__navbar ul {
+header .header__navbar .nav__links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,16 +93,16 @@ header .header__navbar ul {
           align-items: center;
 }
 
-header .header__navbar ul li {
+header .header__navbar .nav__links li {
   margin-right: 5rem;
   justify-self: flex-end;
 }
 
-header .header__navbar ul li:last-child {
+header .header__navbar .nav__links li:last-child {
   margin-right: 0;
 }
 
-header .header__navbar ul li a {
+header .header__navbar .nav__links li a {
   color: #F5F5F5;
   font-size: 1.4rem;
   letter-spacing: 0.25rem;
@@ -110,7 +110,7 @@ header .header__navbar ul li a {
   padding: 0.5rem;
 }
 
-header .header__navbar ul li a:hover {
+header .header__navbar .nav__links li a:hover {
   padding: 0.5rem;
   border-bottom: 2px solid #00D296;
 }
@@ -199,8 +199,10 @@ header .header__navbar ul li a:hover {
     transition: -webkit-transform 500ms ease-in;
     transition: transform 500ms ease-in;
     transition: transform 500ms ease-in, -webkit-transform 500ms ease-in;
-    padding: 2em 7em 10em 7em;
+    padding: 2em 5em 10em 5em;
     z-index: 5;
+    -webkit-transition: none;
+    transition: none;
   }
   .nav__links li {
     opacity: 0;
@@ -263,6 +265,7 @@ header .header__navbar ul li a:hover {
   margin-left: -353px;
   top: 50%;
   margin-top: -135.5px;
+  overflow-x: hidden;
 }
 
 .jumbotron__content {
@@ -499,6 +502,12 @@ header .header__navbar ul li a:hover {
   }
   .aboutus__info p:nth-child(3) {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .aboutus__info p {
+    width: 25ch;
   }
 }
 
