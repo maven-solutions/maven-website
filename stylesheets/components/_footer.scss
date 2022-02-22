@@ -1,15 +1,20 @@
-footer {
+.container-wrapper {
   padding: 5rem 4.5rem;
-  background: transparent;
+  // background: transparent;
+  background-color: #14151a;
   max-width: 1500px;
   margin-right: auto;
   margin-left: auto;
+}
 
+footer {
+  background-color: #14151a;
+  width: 100%;
   .footer__nav {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    // width: 100%;
 
     .fnav__header {
       font-size: 5rem;
@@ -35,14 +40,67 @@ footer {
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    margin-top: 10rem;
+    margin-top: 3rem;
     margin-bottom: 0rem;
-
     .fnav__text {
       font-size: 1.6rem;
       color: #e7e7e6;
       cursor: pointer;
       text-align: center;
+    }
+  }
+}
+
+.fnav__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flogo {
+  object-fit: cover;
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: 5rem;
+}
+
+.ficons {
+  height: 7rem;
+  width: 7rem;
+  object-fit: cover;
+}
+
+.footer_nav2 {
+  margin-bottom: 5rem;
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    li {
+      margin-bottom: 2.5rem;
+      a {
+        color: $fontcolor-blackscreen;
+        font-size: $nav-font-size;
+        letter-spacing: $letter-spacing;
+        &:hover {
+          color: #00d296;
+        }
+      }
+    }
+  }
+}
+
+.footer_nav3 {
+  .cu__mail {
+    margin-top: 0;
+    p {
+      font-size: 1.8rem;
+    }
+  }
+
+  .cu__address {
+    p {
+      font-size: 1.8rem;
     }
   }
 }
@@ -56,5 +114,12 @@ footer {
 @media screen and (max-width: 550px) {
   .fnav__header {
     font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .fnav__wrapper {
+    flex-direction: column;
+    align-items: center;
   }
 }

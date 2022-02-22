@@ -68,3 +68,39 @@ $('.slider').slick({
             }
         }]
 });
+
+$('.st__body').slick({
+    adaptiveHeight: false,
+    infinite: true,
+    speed: 300,
+    dots: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    dots: false,
+    responsive: [
+        {
+            breakpoint: 965,
+            settings: {
+                slidesToShow: 3,
+                arrows: false
+            }
+        },
+        {
+            breakpoint: 744,
+            settings: {
+                slidesToShow: 2,
+                arrows: false
+
+            }
+        },
+        {
+            breakpoint: 410,
+            settings: {
+                slidesToShow: 1,
+                arrows: false,
+            }
+        },
+
+    ]
+});
