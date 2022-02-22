@@ -61,7 +61,7 @@ $('.slider').slick({
     autoplay: true,
     responsive: [
         {
-            breakpoint: 410,
+            breakpoint: 480,
             settings: {
                 arrows: false,
                 dots: true
@@ -83,14 +83,14 @@ $('.st__body').slick({
             breakpoint: 965,
             settings: {
                 slidesToShow: 3,
-                arrows: false
+                arrows: true
             }
         },
         {
             breakpoint: 744,
             settings: {
                 slidesToShow: 2,
-                arrows: false
+                arrows: true
 
             }
         },
@@ -98,7 +98,7 @@ $('.st__body').slick({
             breakpoint: 410,
             settings: {
                 slidesToShow: 1,
-                arrows: false,
+                arrows: true
             }
         },
 

@@ -32,23 +32,12 @@
 
 .cf__container {
   margin-top: 10rem;
-  // background-color: #14151a;
   padding: 1rem;
-  // border: solid 5px transparent;
-  // background-image: linear-gradient(
-  //     rgba(255, 255, 255, 0),
-  //     rgba(255, 255, 255, 0)
-  //   ),
-  //   linear-gradient(268deg, #b445fc, #0ebff2 45%);
-  // background-origin: border-box;
-  // background-clip: border-box;
-  // box-shadow: 2px 1000px 1px #14151a inset;
   height: 375px !important;
   display: flex !important;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  // border-radius: 25px;
 
   &:hover {
     .cf__container__image {
@@ -151,7 +140,6 @@
 .slick-next:before {
   font-size: 30px !important;
   color: #0ebff2 !important;
-  // margin: 1rem !important;
 }
 
 .slick-prev,
@@ -190,42 +178,27 @@
   }
 }
 
+//For Responsive Slider
 @media screen and (max-width: 950px) {
-  .slick-prev {
-    left: 90px !important;
-  }
-
-  .slick-next {
-    right: 90px !important;
+  .slider {
+    max-width: 750px !important;
   }
 }
 
 @media screen and (max-width: 775px) {
-  .slick-prev {
-    left: 180px !important;
-  }
-
-  .slick-next {
-    right: 180px !important;
+  .slider {
+    max-width: 600px !important;
   }
 }
 
 @media screen and (max-width: 590px) {
-  .slick-prev {
-    left: 240px !important;
-  }
-
-  .slick-next {
-    right: 240px !important;
+  .slider {
+    max-width: 480px !important;
   }
 }
 
-@media screen and (max-width: 470px) {
-  .slick-prev {
-    left: 270px !important;
-  }
-
-  .slick-next {
-    right: 270px !important;
+@media screen and (max-width: 480px) {
+  .slider {
+    max-width: auto !important;
   }
 }

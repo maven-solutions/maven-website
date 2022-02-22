@@ -299,6 +299,7 @@ header .header__navbar .nav__links li a:hover {
   color: #e7e7e6;
   font-weight: 600;
   letter-spacing: 0.125rem;
+  margin-bottom: 1rem;
 }
 
 .jc__header p:nth-child(2) {
@@ -310,6 +311,7 @@ header .header__navbar .nav__links li a:hover {
   letter-spacing: 0.125rem;
   line-height: 1.5;
   text-shadow: rgba(255, 255, 255, 0.5) 0px 0px 30px;
+  margin-bottom: 1rem;
 }
 
 .jc__info p:nth-child(1) {
@@ -616,6 +618,12 @@ header .header__navbar .nav__links li a:hover {
 @media screen and (max-width: 744px) {
   .st__body {
     max-width: 550px !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .st__body {
+    max-width: 400px !important;
   }
 }
 
@@ -1014,38 +1022,26 @@ header .header__navbar .nav__links li a:hover {
 }
 
 @media screen and (max-width: 950px) {
-  .slick-prev {
-    left: 90px !important;
-  }
-  .slick-next {
-    right: 90px !important;
+  .slider {
+    max-width: 750px !important;
   }
 }
 
 @media screen and (max-width: 775px) {
-  .slick-prev {
-    left: 180px !important;
-  }
-  .slick-next {
-    right: 180px !important;
+  .slider {
+    max-width: 600px !important;
   }
 }
 
 @media screen and (max-width: 590px) {
-  .slick-prev {
-    left: 240px !important;
-  }
-  .slick-next {
-    right: 240px !important;
+  .slider {
+    max-width: 480px !important;
   }
 }
 
-@media screen and (max-width: 470px) {
-  .slick-prev {
-    left: 270px !important;
-  }
-  .slick-next {
-    right: 270px !important;
+@media screen and (max-width: 480px) {
+  .slider {
+    max-width: auto !important;
   }
 }
 

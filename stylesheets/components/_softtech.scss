@@ -48,8 +48,6 @@
   display: flex !important;
   flex-direction: column;
   align-items: center;
-  // width: 215px !important;
-  // margin-bottom: 4rem;
   img {
     height: 10rem;
     width: 10rem;
@@ -64,6 +62,7 @@
   }
 }
 
+//For Responsive Slider
 @media screen and (max-width: 965px) {
   .st__body {
     max-width: 750px !important;
@@ -84,6 +83,12 @@
   }
 }
 
+@media screen and (max-width: 550px) {
+  .st__body {
+    max-width: 400px !important;
+  }
+}
+
 @media screen and (max-width: 410px) {
   .st__body {
     max-width: 300px !important;
@@ -98,7 +103,4 @@
       }
     }
   }
-}
-
-@media screen and (max-width: 965px) {
 }
