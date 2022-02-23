@@ -78,6 +78,7 @@ $('.st__body').slick({
     slidesToScroll: 1,
     autoplay: true,
     dots: false,
+    nextArrow: false,
     responsive: [
         {
             breakpoint: 965,
@@ -98,9 +99,46 @@ $('.st__body').slick({
             breakpoint: 410,
             settings: {
                 slidesToShow: 1,
+                arrows: false
+            }
+        },
+    ]
+});
+
+$('.st__body1').slick({
+    adaptiveHeight: false,
+    infinite: true,
+    speed: 300,
+    dots: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: false,
+    dots: false,
+    prevArrow: false,
+    autoplay: false,
+    dots: false,
+    responsive: [
+        {
+            breakpoint: 965,
+            settings: {
+                slidesToShow: 3,
                 arrows: true
             }
         },
+        {
+            breakpoint: 744,
+            settings: {
+                slidesToShow: 2,
+                arrows: true
 
+            }
+        },
+        {
+            breakpoint: 410,
+            settings: {
+                slidesToShow: 1,
+                arrows: false
+            }
+        },
     ]
 });

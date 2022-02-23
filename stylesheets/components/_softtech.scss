@@ -1,5 +1,18 @@
 .soft__tech {
   padding: 7rem 4.5rem;
+  padding-bottom: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  background: transparent;
+}
+
+.soft__tech2 {
+  padding: 7rem 4.5rem;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,12 +49,17 @@
   }
 }
 
-.st__body {
+.st__body,
+.st__body1 {
   margin-top: 10rem;
   display: flex !important;
   flex-direction: row;
   flex-wrap: wrap;
   width: auto !important;
+}
+
+.st__body1 {
+  margin-top: 7rem;
 }
 
 .st__card {
@@ -64,7 +82,8 @@
 
 //For Responsive Slider
 @media screen and (max-width: 965px) {
-  .st__body {
+  .st__body,
+  .st__body1 {
     max-width: 750px !important;
   }
 
@@ -78,19 +97,22 @@
 }
 
 @media screen and (max-width: 744px) {
-  .st__body {
+  .st__body,
+  .st__body1 {
     max-width: 550px !important;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .st__body {
+  .st__body,
+  .st__body1 {
     max-width: 400px !important;
   }
 }
 
 @media screen and (max-width: 410px) {
-  .st__body {
+  .st__body,
+  .st__body1 {
     max-width: 300px !important;
   }
 }
