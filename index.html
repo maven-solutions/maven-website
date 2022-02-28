@@ -37,6 +37,11 @@
     <title>Maven Solutions</title>
     <script src="javascript/jquery.waypoints.min.js"></script>
     <script src="javascript/jquery.countup.min.js"></script>
+
+    <!-- AOS LIBRARY  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- X   AOS LIBRARY  X  -->
   </head>
   <body>
     <div id="particles-js">
@@ -64,16 +69,16 @@
       <section class="jumbotron">
         <div class="jumbotron__content">
           <div class="jc__header">
-            <p>YOUR PARTNER FOR</p>
-            <p>SOFTWARE INNOVATION</p>
+            <p data-aos="fade-down" data-aos-duration="800">YOUR PARTNER FOR</p>
+            <p data-aos="fade-right"data-aos-delay="800" data-aos-duration="600">SOFTWARE INNOVATION</p>
           </div>
           <div class="jc__info">
-            <p>
+            <p data-aos="zoom-in" data-aos-delay="1600" data-aos-duration="600">
               Get professional full-time developers who exclusively work for you
               as a part of your company.
             </p>
           </div>
-          <div class="jc__button">
+          <div class="jc__button"data-aos="fade-left" data-aos-delay="2000" data-aos-duration="800">
             <a href="#contactus">
               <button>ENQUIRE NOW</button>
             </a>
@@ -82,7 +87,8 @@
       </section>
     </div>
 
-    <section id="aboutus" class="aboutus">
+    <section id="aboutus" class="aboutus" data-aos="fade-right"
+    data-aos-duration="1500">
       <div class="aboutus__header">
         <p>Our Mission & Vision</p>
       </div>
@@ -217,7 +223,7 @@
       </div>
 
       <div class="services__info">
-        <div class="si-card">
+        <div class="si-card" data-aos="flip-left" data-aos-duration="1000" >
           <img src="assets/webdev.svg" alt="software development" />
           <p class="si-card-title">Software Development</p>
           <p>
@@ -227,7 +233,7 @@
           </p>
         </div>
 
-        <div class="si-card">
+        <div class="si-card" data-aos="flip-left" data-aos-duration="1000" >
           <img src="assets/mobiledev.svg" alt="software development" />
           <p class="si-card-title">Mobile App Development</p>
           <p>
@@ -237,7 +243,7 @@
           </p>
         </div>
 
-        <div class="si-card">
+        <div class="si-card" data-aos="flip-left" data-aos-duration="1000" >
           <img src="assets/databasedev.svg" alt="software development" />
           <p>Database Services</p>
           <p>
@@ -247,7 +253,7 @@
           </p>
         </div>
 
-        <div class="si-card">
+        <div class="si-card" data-aos="flip-right" data-aos-duration="1000" >
           <img src="assets/digmar.svg" alt="software development" />
           <p>Digital Marketing</p>
           <p>
@@ -256,7 +262,7 @@
           </p>
         </div>
 
-        <div class="si-card">
+        <div class="si-card" data-aos="flip-right" data-aos-duration="1000" >
           <img src="assets/marana.svg" alt="software development" />
           <p>Market Analysis & IT Research</p>
           <p>
@@ -487,9 +493,10 @@
       </div>
     </section>
 
-    <section class="clients__name">
+    <section class="clients__name" >
       <div class="cn__header"><p>Our Clients</p></div>
-      <div class="cn__bigContainer">
+      <div class="cn__bigContainer" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
         <div class="hex">
           <div class="cn__container">
             <img src="assets/feedbacks/agilecoach.png" />
@@ -524,7 +531,8 @@
       </div>
 
       <div class="contactUs__container">
-        <div class="cu__container__left">
+        <div class="cu__container__left" data-aos="fade-right"
+        data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="cu__containerleft__info">
             <p>Write us a message.</p>
             <p>
@@ -558,7 +566,8 @@
           </div>
         </div>
 
-        <div class="cu__container__right">
+        <div class="cu__container__right" data-aos="fade-left"
+        data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <form
             id="form1"
             action="https://formspree.io/f/xvodwjea"
@@ -664,5 +673,8 @@
     <script src="javascript/script.js"></script>
     <script src="javascript/particles.js"></script>
     <script src="javascript/app.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

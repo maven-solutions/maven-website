@@ -12,3 +12,25 @@
 @import "./components/clients";
 @import "./components/contactus";
 @import "./components/footer";
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    background: rgb(37, 37, 37); 
+    
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    // background: #888; 
+    // background: rgb(142,131,249); 
+    background: linear-gradient(137deg, #b445fc, #0ebff2);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(137deg, #b445fc, #0ebff2);
+  }

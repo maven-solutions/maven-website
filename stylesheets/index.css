@@ -327,7 +327,7 @@ header .header__navbar .nav__links li a:hover {
   font-weight: bold;
   letter-spacing: 0.125rem;
   border-radius: 25px;
-  border: none;
+  border: 2px solid black;
   cursor: pointer;
   background: linear-gradient(268deg, #b445fc, #0ebff2);
 }
@@ -1677,5 +1677,22 @@ footer .fnav__text--container .fnav__text {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  background: #252525;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(137deg, #b445fc, #0ebff2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(137deg, #b445fc, #0ebff2);
 }
 /*# sourceMappingURL=index.css.map */
