@@ -140,12 +140,14 @@
 .slick-next:before {
   font-size: 30px !important;
   color: #0ebff2 !important;
+
 }
 
 .slick-prev,
 .slick-next {
   width: 30px !important;
   height: 30px !important;
+  transform: rotate(180deg)!important;
 }
 
 .slick-dots li.slick-active button:before {
@@ -159,6 +161,20 @@
   color: #ffffff !important;
 }
 
+
+//overriding css btns direction for custom modification of slick slider
+ .slick-next{
+  left:-30px !important;
+  // background-color: #f9556d;
+}
+.slick-prev{
+  left:100% !important;
+  // right: 30px !important;
+  // margin-right: 30px !important;
+  z-index: 100;
+  // background-color: #f9556d;
+}
+
 @media screen and (max-width: 1000px) {
   .cf__container {
     flex-direction: column;
@@ -170,11 +186,14 @@
   }
 
   .slick-prev {
-    left: 0px !important;
+    left: 100% !important;
   }
 
   .slick-next {
-    right: 0px !important;
+    // right: 0px !important;
+    left:-30px !important;
+    
+
   }
 }
 
